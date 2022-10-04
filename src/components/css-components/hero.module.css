@@ -327,11 +327,11 @@ a.card-link:hover span.cta-card {
   .bgimg img{
     position: relative;
     bottom: 20px;
-    left: 30px;
+    left: 40px;
   }
   
   /* -----Responsive----- */
-@media (max-width: 950px) {
+@media (max-width: 1250px) {
 
     .container {
       flex-direction: column;

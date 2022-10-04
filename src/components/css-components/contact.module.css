@@ -12,13 +12,13 @@
 }
 
 .container .info .email{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .container .info .emailto a{
     font-size: 1.5em;
     text-decoration: none;
-    background-color: aquamarine;
+    background-color: #4ef3bc;
     padding: 10px;
     margin: 10px;
     margin-bottom: 20px;
@@ -27,7 +27,7 @@
 }
 
 .container .info .emailto a:hover{
-    background-color: rgb(78, 243, 188);
+    background-color: #4ef3bc;
     border-radius: 50px;
     transition: all .5s ease-in;
 }
@@ -55,4 +55,22 @@
 }
 .container .info .resdownload a:hover{
     color: #e74c3c
+}
+
+@media (max-width: 1250px){
+    .container{
+        width: 80%;
+        margin: 70px;
+    }
+    .container .info .emailtxt{
+        font-size: 20px;
+    }
+    .container .info .emailto {
+        display: block;
+        margin-top: 15px;
+        font-size: .7em;
+    }
+    .container .info .resdownload{
+        margin-bottom: 20px;
+    }
 }
