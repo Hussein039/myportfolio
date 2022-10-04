@@ -15,7 +15,7 @@ html {
   margin: 0;
   padding: 0;
 	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-	box-sizing: inherit;
+	box-sizing:border-box;
   font-family: 'Raleway', sans-serif;
 
 
@@ -33,3 +33,9 @@ body {
     min-height: 100%; */
 }
 
+@media (max-width:1250px) {
+  * {
+    width: 100%;
+  }
+  
+}
